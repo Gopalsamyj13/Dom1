@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision Assignment</title>
+</head>
+<body>
+    <input type="text" id="name">
+    <button onclick="sub()">Submit</button>
+    <h2 id="hname">Entered Value:</h2>
+</body>
+<script>
+    function sub(){
+        alert(document.getElementById("name").value);
+        let h1=document.getElementById("hname");
+        let name=document.getElementById("name").value;
+        h1.innerText+=" " +name;
+    }
+    
+</script>
+</html>
